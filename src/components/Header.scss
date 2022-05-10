@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Paytone+One:400|Poppins:700");
+
+$heavy-metal: rgba(45, 45, 45, 1);
+
+$grey-color-900: #2E2E2E;
+$grey-color-500: #8C8C8C;
+
+$font-family-paytone_one: "Paytone One";
+$font-family-poppin: "Poppins";
+
+$font-size-xs: 12px;
+$font-size-s: 14px;
+$font-size-m: 16px;
+$font-size-l: 18px;
+$font-size-xl: 20px;
+$font-size-xxl: 24px;
+$font-size-xxxl: 40px;
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+menu-item {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .title {
+    height: 28px;
+    letter-spacing: 0;
+    line-height: 28.0px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+}
+
+.menus .item {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+
+.paytoneone-normal-heavy-metal-20px {
+    color: $heavy-metal;
+    font-family: $font-family-paytone_one;
+    font-size: $font-size-xl;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppin-normal-16px {
+    color: $grey-color-500;
+    font-family: $font-family-poppin;
+    font-size: $font-size-m;
+    font-weight: 700;
+    line-height: 148%;
+}
+
+.wallet_icon {
+    height: 40px;
+    width: 159px;
+}
+
+.outer_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.inner_box {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 48px);
+    height: 64px;
+
+    background: #FFFFFF;
+    border: 1px solid #BED9D3;
+    border-radius: 16px;
+}
