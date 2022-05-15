@@ -1,0 +1,24 @@
+.wallet-wrapper {
+    /* BTN color/300 */
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+    background: #FFDC82;
+    border: 1px solid #FFBE42;
+    box-shadow: inset 0px 4px 0px #FFE9B1, inset 0px -4px 0px #FFBE42;
+    border-radius: 14px;
+    /* padding: 14.5px 0px; */
+}
+
+.wallet-wrapper .wallet {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.002em;
+
+    /* Greyscale color/900 */
+
+    color: #2E2E2E;
+
+}

@@ -1,9 +1,11 @@
 import React from "react";
 import './Header.scss';
+import WalletButton from './WalletButton.js';
+
 
 function Header() {
+
     return (
-        // TODO: media query for reactive page
         <div className="outer_box">
             <div className="inner_box">
                 <div className="nav">
@@ -13,9 +15,12 @@ function Header() {
                         <Menu title="Pools"/>
                         <Menu title="Farms"/>
                         <Menu title="Liquidity"/>
-                        <ConnectWalletButton customStyle={
-                            {"margin-left": "24px"}
-                        }/>
+                        <WalletButton wordStyle={
+                                {fontSize: "16px"}
+                            }
+                            wrapperStyle={
+                                {padding: "8px 16px"}
+                            }/>
                     </div>
                 </div>
             </div>
