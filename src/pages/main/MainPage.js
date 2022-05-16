@@ -1,9 +1,9 @@
 // import React from "react";
 import './MainPage.css';
-import settingSrc from '../static/images/icon_setting.png';
-import downArrowSrc from '../static/images/down-arrow.svg';
-import swapSrc from '../static/images/swap.png';
-import WalletButton from '../components/WalletButton.js';
+import settingSrc from '../../static/images/icon_setting.png';
+import downArrowSrc from '../../static/images/down-arrow.svg';
+import swapSrc from '../../static/images/swap.png';
+import WalletButton from '../../components/WalletButton.js';
 
 function Area({
     showMaxButton = false,
@@ -37,7 +37,7 @@ function Area({
     )
 }
 
-function MainPage() {
+const MainPage = () => {
     return (
         <div className="main">
             <div className="title">
