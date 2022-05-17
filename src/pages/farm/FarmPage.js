@@ -25,11 +25,16 @@ const FarmPage = () => {
 
     const modalInputStyle = {
         width: '100%',
-        height: '64px',
         background: '#EBEBEB',
         border: '1px solid #CCCCCC',
         boxShadow: 'inset 0px 5px 0px #E3E3E3',
-        borderRadius: '32px'
+        borderRadius: '32px',
+        "& .MuiOutlinedInput-root": {
+            "& fieldset": {
+                border: "none"
+            },
+            padding: "0px 0px"
+        }
     }
 
 
@@ -52,16 +57,16 @@ const FarmPage = () => {
                        aria-labelledby="modal-modal-title"
                        aria-describedby="modal-modal-description">
                     <Box sx={modalStyle}>
-                        <div className="farm_modal_title_wrapper">
-                            <div className="farm_modal_header">
-                                <div className="farm_modal_title">Stake</div>
-                                <div className="farm_modal_close"><img src={closeSrc}/></div>
-                            </div>
-                            <div className="farm_modal_subtitle">Amount to Stake</div>
-                            <div className="farm_modal_input">
-                                <TextField style={modalInputStyle}/>
-                            </div>
-                        </div>
+                        <Box className="farm_modal_title_wrapper">
+                            <Box className="farm_modal_header">
+                                <Box className="farm_modal_title">Stake</Box>
+                                <Box className="farm_modal_close"><img src={closeSrc}/></Box>
+                            </Box>
+                            <Box className="farm_modal_subtitle">Amount to Stake</Box>
+                            <Box className="farm_modal_input">
+                                <TextField sx={modalInputStyle} disableUnderline={true}/>
+                            </Box>
+                        </Box>
                     </Box>
                 </Modal>
         </Container>
