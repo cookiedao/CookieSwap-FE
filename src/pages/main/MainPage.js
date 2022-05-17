@@ -1,4 +1,3 @@
-// import React from "react";
 import './MainPage.css';
 import settingSrc from '../../static/images/icon_setting.png';
 import downArrowSrc from '../../static/images/down-arrow.svg';

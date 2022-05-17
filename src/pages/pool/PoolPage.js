@@ -1,8 +1,6 @@
 const PoolPage = () => {
     return (
-        <div>
-            PoolPage
-        </div>
+        <div>PoolPage</div>
     )
 }
 
